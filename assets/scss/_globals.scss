@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: $light-gray;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    align-content: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'karla';
+}
+
+.btn {
+    display: block;
+    background-color: $bright-yellow;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+ul {
+    font-family: 'karla';
+    list-style: none;
+    font-size: .85rem;
+    color: rgba(255, 255, 255, .6);
+    line-height: 1.35;
+}
+
+h1,
+h2,
+p {
+    font-family: 'karla';
+
+}
+
+h1 {
+    font-size: 1.25rem;
+    color: $cyan;
+}
+
+h2 {
+    font-size: 1rem;
+    color: $bright-yellow;
+}
+
+p {
+    font-size: .85rem;
+    line-height: 1.75;
+    color: $grayish-blue;
+}
